@@ -1,0 +1,237 @@
+.wrapper{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center{
+    max-width: 1244px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #E5E5E5;
+} 
+
+/*Container 1*/
+
+.container1 .logo p{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 98.7%;
+    color: #101010;
+}
+
+.container1 .logo{
+    margin-top: 35px;
+    float: left;
+    cursor: pointer;
+}
+
+.container1 .burger{
+    float: right;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.container1 h1{
+    clear: both;
+    padding-top: 240px;
+    font-family: 'Playfair Display';
+    font-size: 101px;
+    line-height: 98.7%;
+    font-weight: 400;
+    color: #101010;
+    width: 912px;
+    margin-bottom: 156px;
+}
+
+
+/*Container 2*/
+.container2 img{
+    width: 100%;
+    max-width: 100%;
+}
+
+/*Container 3*/
+.container3 .text-left hr{
+    width: 34px;
+    height: 1px;
+    background-color: #101010;
+    border: 0;
+    margin-top: 77px;
+    margin-bottom: 16px;
+}
+
+.container3 .text-left p{
+    font-family: 'DM Sans';
+    font-size: 24px;
+    line-height: 153.7%;
+    color: #101010;
+}
+
+.container3 .text-left{
+    width: 296px;
+    float: left;
+}
+
+.container3 .text-right p{
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    line-height: 120.7%;
+    color: #101010;
+}
+
+.container3 .text-right{
+    float: right;
+    width: 820px;
+    margin-top: 66px;
+}
+
+.container3 .sub_title{
+    font-family: 'DM Sans';
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 153.7%;
+    color: #101010;
+    clear: both;
+    padding-top: 128px;
+    padding-bottom: 40px;
+}
+
+.container3 .description{
+    font-family: 'DM Sans';
+    font-size: 24px;
+    line-height: 153.7%;
+    color: #101010;
+}
+
+/*Container 4*/
+
+.container4{
+    padding-top: calc(135px - 54px);
+    padding-bottom: 60px;
+}
+
+.container4 .card hr{
+    width: 34px;
+    height: 1px;
+    background-color: #101010;
+    margin-top: 31px;
+    margin-bottom: 16px;
+    border: 0;
+}
+
+.container4 .card p{
+    font-family: 'DM Sans';
+    font-size: 24px;
+    line-height: 153.7%;
+    color: #101010;
+    width: 296px;
+}
+
+.container4 .card{
+    margin-top: 54px;
+}
+
+.container4 .side_left{
+    float: left;
+}
+
+.container4 .side_right{
+    float: right;
+}
+
+.container4 .clearfix{
+    clear: both;
+}
+
+/*Container 5(Footer)*/
+
+footer{
+    background-color: #101010;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 71px;
+}
+
+footer .footer_logo p{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    line-height: 98.7%;
+    color: #F2F2F2;
+    font-weight: bold;
+}
+
+footer .research_block p, footer .services_block p, footer .legal_block p {
+    font-size: 38px;
+    line-height: 199%;
+    color: #F2F2F2;
+    font-family: 'Playfair Display';
+}
+
+footer .research_block ul li a,footer .services_block ul li a,footer .legal_block ul li a{
+    font-family: 'DM Sans';
+    font-size: 21px;
+    line-height: 199%;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+footer .research_block ul, footer .services_block ul, footer .legal_block ul{
+    list-style-type: none;
+}
+
+footer .footer_logo, footer .research_block, footer .services_block{
+    float: left;
+}
+
+footer .legal_block{
+    float: right;
+}
+
+footer .research_block, footer .services_block, footer .legal_block{
+    margin-top: -19px;
+}
+
+footer .footer_logo{
+    margin-right: 277px;
+}
+
+footer .research_block, footer .services_block{
+    margin-right: 88px;
+}
+
+footer .social-links{
+    clear: both;
+    padding-top: 218px;
+}
+
+footer .social-links .social_left{
+    float: left;
+}
+
+footer .social-links .social_right{
+    float: right;
+}
+
+footer .social-links .social_left a{
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 99%;
+    color: #F2F2F2;
+    text-decoration: none;
+    margin-right: 53px;
+}
+
+footer .social-links .social_right a{
+    margin-left: 32px;
+}
